@@ -1,47 +1,156 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header,
 main,
 footer {
-    background-color: #eee;
-    margin-bottom: 1%;
-    padding: 2%;
+  background-color: #eee;
+  margin-bottom: 1%;
+  padding: 2%;
 }
 
 .box {
-    width: 10%;
-    aspect-ratio: 1/1;
-    padding: 1%;
-    margin: 0.3%;
+  width: 10%;
+  aspect-ratio: 1/1;
+  padding: 1%;
+  margin: 0.3%;
 }
 
 #container {
-    position: relative;
-    border: 3px red dashed;
-    width: 100%;
-    aspect-ratio: 10/9;
+  position: relative;
+  border: 3px red dashed;
+  width: 100%;
+  aspect-ratio: 10/9;
 }
 
 /* SKRIV KUN KODE HERUNDER */
 
-.redBox {
-    background-color: #ff1d00;
+/* stjerne */
+/* .redBox {
+  background-color: #ff1d00;
+  rotate: 45deg;
+  left: 20vh;
+  top: 20vh;
+  position: absolute;
+  transform-origin: top left;
+  rotate: 0deg;
 }
 
 .yellowBox {
-    background-color: #ffeb00;
+  background-color: #ffeb00;
+  left: 20vh;
+  top: 20vh;
+  position: absolute;
+  transform-origin: top left;
+  rotate: 72deg;
 }
 
 .pinkBox {
-    background-color: #ff9ecf;
+  background-color: #ff9ecf;
+  left: 20vh;
+  top: 20vh;
+  position: absolute;
+  transform-origin: top left;
+  rotate: 144deg;
 }
 
 .greenBox {
-    background-color: #1fd81f;
+  background-color: #1fd81f;
+  left: 20vh;
+  top: 20vh;
+  position: absolute;
+  transform-origin: top left;
+  rotate: -144deg;
 }
 
 .blueBox {
-    background-color: #0180fc;
+  background-color: #0180fc;
+  left: 20vh;
+  top: 20vh;
+  position: absolute;
+  transform-origin: top left;
+  rotate: -72deg;
+} */
+
+/* nr 2 opgave */
+/* .redBox {
+  background-color: #ff1d00;
+  position: absolute;
+}
+
+.yellowBox {
+  background-color: #ffeb00;
+  position: absolute;
+  scale: 1.5;
+  translate: 75% 75%;
+}
+
+.pinkBox {
+  background-color: #ff9ecf;
+  position: absolute;
+  scale: 2;
+  translate: 175% 175%;
+}
+
+.greenBox {
+  background-color: #1fd81f;
+  position: absolute;
+  scale: 2.5;
+  translate: 300% 300%;
+}
+
+.blueBox {
+  background-color: #0180fc;
+  position: absolute;
+  scale: 3;
+  translate: 450% 450%;
+} */
+
+.redBox {
+  background-color: #ff1d00;
+  position: absolute;
+  transform-origin: center;
+  rotate: 45deg;
+
+  top: 14.5vh;
+  left: 30vh;
+  z-index: 2;
+  scale: 1.061;
+}
+
+.yellowBox {
+  background-color: #ffeb00;
+  position: absolute;
+  scale: 1.5;
+  top: 30vh;
+  left: 30vh;
+  z-index: 3;
+}
+
+.pinkBox {
+  background-color: #ff9ecf;
+  position: absolute;
+  top: 6.5vh;
+  left: 38vh;
+  z-index: 1;
+  scale: 0.2 0.75;
+}
+
+.greenBox {
+  background-color: #1fd81f;
+  position: absolute;
+  top: 29.2vh;
+  left: 37vh;
+  z-index: 4;
+  scale: 0.4;
+}
+
+.blueBox {
+  background-color: #0180fc;
+  position: absolute;
+  top: 35.2vh;
+  left: 26vh;
+  z-index: 4;
+  scale: 0.5 1;
 }
